@@ -1,5 +1,3 @@
-package selfPactice;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -17,11 +15,11 @@ public class CatchTheRat extends JFrame {
 		setVisible(true);
 
 		setContentPane(new JLabel(new ImageIcon(
-				"F:/codingninjasfiles/game/catchtherat/background.jpg")));
+				"LOCATION OF THE BACKGROUND IMAGE")));
 		getContentPane().setLayout(new FlowLayout());
 
 		rat = new JLabel(new ImageIcon(
-				"F:/codingninjasfiles/game/catchtherat/rat1.jpg"));
+				"LOCATION OF THE RAT IMAGE"));
 		getContentPane().add(rat);
 
 		random = new Random();
